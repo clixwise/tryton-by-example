@@ -1,3 +1,4 @@
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 # Step 1 : docker stop/start containers
 docker stop tryt20-postgres tryt20
 docker start tryt20-postgres tryt20
@@ -14,3 +15,4 @@ docker cp tryt20-db-backup.tar tryt20-postgres:/tryt20-db-backup.tar
 docker exec -i tryt20-postgres pg_restore -Ft -U postgres -d tryt20-copy -v ./tryt20-db-backup.tar
 # Step 5 : state
 docker exec -tiu postgres tryt20-postgres psql -c '\l+'
+Pause

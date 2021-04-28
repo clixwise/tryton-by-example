@@ -5,6 +5,7 @@
 # tryt20
 # 5452:5432
 # 8020:8000
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 Set-PSDebug -Trace 1
 Set-PSDebug -Off
 Remove-Item -Recurse -Force tryt20-database
@@ -36,3 +37,4 @@ docker run --name tryt20 --env DB_HOSTNAME=tryt20-postgres --env DB_PASSWORD=${P
 dir
 # Obtain Gateway address for usage in pgadmin4 - creating server
 docker inspect tryt20-postgres -f "{{json .NetworkSettings.Networks }}" # "Gateway":"172.18.0.1","IPAddress":"172.18.0.2"
+Pause
