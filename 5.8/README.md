@@ -6,4 +6,4 @@
  Tryton 5.8 - Doc 15.01 - Sale : about the sale cycle  
  Tryton 5.8 - Doc 80.01 - Ancillaries : ancillary features  
  Utilities : Scripts that illustrate the presentation  
- Database Snapshots : Data reflecting the presentation
+ Database Snapshots : Data that illustrate the presentation
