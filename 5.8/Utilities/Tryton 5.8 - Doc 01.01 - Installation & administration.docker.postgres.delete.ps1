@@ -1,8 +1,10 @@
 # Environment : Windows 10 - Powershell - Docker - Tryton 5.8
-# tryt01
+# d01-postgres
+# d01-pgadmin
+
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 Set-PSDebug -Off
-Write-Host "About to delete tryt01 & permanent data base"
+Write-Host "About to delete d01-postgres & d01-pgadmin & permanent data base"
 Pause
 Pause
 #
@@ -17,12 +19,9 @@ dir
 Write-Host "--------------------"
 Write-Host "2. Delete all tryt01"
 Write-Host "--------------------"
-docker stop tryt01-postgres tryt01 tryt01-cron
-docker rm tryt01-postgres tryt01 tryt01-cron
-docker network rm tryt01-network
-docker volume rm tryt01-database tryt01-datafile
-Remove-Item -Recurse -Force tryt01-database
-Remove-Item -Recurse -Force tryt01-datafile
+docker stop d01-postgres d01-pgadmin
+docker rm d01-postgres d01-pgadmin
+Remove-Item -Recurse -Force ${HOME}/d01-postgres-data
 #
 Write-Host "---------"
 Write-Host "3. Status"
