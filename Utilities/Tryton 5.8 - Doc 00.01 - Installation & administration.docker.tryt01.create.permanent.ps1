@@ -41,7 +41,7 @@ Write-Host "4. tryt01 final status"
 Write-Host "----------------------"
 docker ps -a
 # Obtain Gateway address for usage in pgadmin4 - creating server
-docker inspect tryt01-postgres -f "{{json .NetworkSettings.Networks }}" # "Gateway":"172.18.0.1","IPAddress":"172.18.0.2"
+docker inspect tryt01-postgres -f "{{json .NetworkSettings.Networks}}" # "Gateway":"172.18.0.1","IPAddress":"172.18.0.2"
 
 #
 Write-Host "-------"

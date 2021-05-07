@@ -7,7 +7,7 @@ Write-Host "---------"
 docker ps -a
 docker volume ls
 docker network ls
-docker inspect -f '{{.Name}} - {{.NetworkSettings.IPAddress }}' $(docker ps -aq)
+docker inspect tryt01-postgres -f "{{.Name}} - {{json .NetworkSettings.Networks}}"
 Start-Sleep -Seconds 20 # Replace by detecting database is 'up'
 docker exec -tiu postgres tryt01-postgres psql -c '\l+'
 

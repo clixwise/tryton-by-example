@@ -6,3 +6,4 @@ Write-Host "-------------"
 docker ps -a
 docker volume ls
 docker network ls
+docker inspect -f '{{.Name}} - {{json .NetworkSettings.Networks}}' $(docker ps -aq)
