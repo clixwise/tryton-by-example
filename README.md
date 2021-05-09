@@ -8,4 +8,4 @@ Tryton 6.0 - Doc 10.01 - Purchase : about the purchase cycle (TBD)
 Tryton 6.0 - Doc 15.01 - Sale : about the sale cycle (TBD)  
 Tryton 6.0 - Doc 80.01 - Ancillaries : ancillary features (TBD)  
 Utilities : Scripts that illustrate the presentation  
-Database Snapshots : Data that illustrate the presentation  
+Database Snapshots : Data that illustrate the presentation (TBD)  
