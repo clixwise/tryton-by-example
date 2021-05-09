@@ -1,1 +1,0 @@
-select * from res_user;
