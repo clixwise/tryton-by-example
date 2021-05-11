@@ -9,7 +9,7 @@ docker volume ls
 docker network ls
 docker inspect tryt11-postgres -f "{{.Name}} - {{json .NetworkSettings.Networks}}"
 docker inspect post01-postgres -f "{{.Name}} - {{json .NetworkSettings.Networks}}"
-Start-Sleep -Seconds 20 # Replace by detecting database is 'up'
+Start-Sleep -Seconds 30 # Replace by detecting database is 'up'
 docker exec -tiu postgres tryt11-postgres psql -c '\l+'
 docker exec -tiu postgres post01-postgres psql -c '\l+'
 

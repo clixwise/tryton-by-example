@@ -12,7 +12,7 @@ Write-Host "---------"
 Write-Host "2. Status"
 Write-Host "---------"
 docker ps -a
-Start-Sleep -Seconds 20 # Replace by detecting database is 'up'
+Start-Sleep -Seconds 30 # Replace by detecting database is 'up'
 docker exec -tiu postgres post01-postgres psql -c '\l+'
 
 # Step 3 : drop and create post01-copy

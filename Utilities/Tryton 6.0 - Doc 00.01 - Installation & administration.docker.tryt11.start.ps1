@@ -15,7 +15,7 @@ Write-Host "----------------"
 Write-Host "3. Docker Status"
 Write-Host "----------------"
 docker ps -a
-Start-Sleep -Seconds 20 # Replace by detecting database is 'up'
+Start-Sleep -Seconds 30 # Replace by detecting database is 'up'
 docker exec -tiu postgres tryt11-postgres psql -c '\l+'
 #
 Write-Host "-------"

@@ -23,7 +23,7 @@ docker run -p 81:80 -e 'PGADMIN_DEFAULT_EMAIL=x@gmail.com' -e 'PGADMIN_DEFAULT_P
 Write-Host "----------"
 Write-Host "3. Inspect"
 Write-Host "----------"
-Start-Sleep -Seconds 20 # Replace by detecting database is 'up'
+Start-Sleep -Seconds 30 # Replace by detecting database is 'up'
 docker exec post01-postgres ls /var/lib/postgresql/data
 docker exec -tiu postgres post01-postgres psql -c '\l+'
 docker inspect post01-postgres -f "{{json .NetworkSettings.Networks }}"
