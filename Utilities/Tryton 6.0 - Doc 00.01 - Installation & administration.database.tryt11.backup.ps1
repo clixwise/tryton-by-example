@@ -1,5 +1,10 @@
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 #
+# tryt11
+# tryt11-postgres
+# tryt11-db-backup.tar
+#
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+
 Write-Host "---------"
 Write-Host "1. Status"
 Write-Host "---------"

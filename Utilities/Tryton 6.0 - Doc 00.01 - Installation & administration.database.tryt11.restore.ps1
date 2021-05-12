@@ -1,3 +1,6 @@
+# Change replace : tryt11
+# Database is    : tryt11-copy
+
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 
 # Step 1 : docker stop/start containers
