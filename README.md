@@ -6,6 +6,6 @@ Tryton 6.0 - Doc 00.01 - Installation & administration : how to install and to m
 Tryton 6.0 - Doc 05.01 - Basic Functionality : about the basic scenarios  
 Tryton 6.0 - Doc 10.01 - Purchase : about the purchase cycle  
 Tryton 6.0 - Doc 15.01 - Sale : about the sale cycle  
-Tryton 6.0 - Doc 80.01 - Ancillaries : ancillary features (TBD)  
+Tryton 6.0 - Doc 80.01 - Ancillaries : ancillary features  
 Utilities : Scripts that illustrate the presentation  
 Database Snapshots : Data that illustrate the presentation  
