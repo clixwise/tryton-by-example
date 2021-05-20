@@ -11,4 +11,5 @@ Utilities : Scripts that illustrate the presentation
 Database Snapshots : Data that illustrate the presentation 
 
 The presentation comes in two TRYTON-compliant versions : 5.8 and 6.0  
-Version 6.0 of the presentation improves on 5.8. So refer to it even when you are running TRYTON 5.8 since the presentation addresses only basic aspects of the system.   
+Version 6.0 of the presentation improves on 5.8.  
+So refer to it even when you are running TRYTON 5.8 since the presentation addresses only basic aspects of the system.   
