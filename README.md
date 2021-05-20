@@ -10,5 +10,5 @@ Tryton 6.0 - Doc 80.01 - Ancillaries : ancillary features
 Utilities : Scripts that illustrate the presentation  
 Database Snapshots : Data that illustrate the presentation 
 
-The presentation comes in two TRYTON-compliant versions : 5.8 and 6.0
-Version 6.0 of the presentation improves on 5.8. So refer to it even when you are running TRYTON 5.8 since the presentation addresses only basic aspects of the system.   
+The presentation comes in two TRYTON-compliant versions : 5.0 (branch) and 6.0 (main = branch)  
+Version 6.0 of the presentation improves in quality on 5.0. It is recommended to use it even when running TRYTON 5.0.   
