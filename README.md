@@ -12,4 +12,4 @@ Database Snapshots : Data that illustrate the presentation
 
 The presentation comes in two TRYTON-compliant versions : 5.0 (branch) and 6.0 (main = branch)  
 Version 6.0 of the presentation improves on 5.0.  
-So refer to it even when running TRYTON 5.0 since the presentation addresses basic aspects of the system.   
+Preferably refer to it even when running TRYTON 5.0 since the presentation addresses basic aspects of the system.   
